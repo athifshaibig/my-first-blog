@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 
 def home(request):
-	quote = 'athif valiyakath working in shaibig infosystem'
+	quote = 'athif valiyakath lives in banglore'
 	return render(request, 'index.html', locals())
